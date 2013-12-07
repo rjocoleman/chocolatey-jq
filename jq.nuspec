@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>jq</id>
+    <title>jq</title>
+    <version>1.0.1</version>
+    <authors>Stephen Dolan</authors>
+    <owners>Robert Coleman</owners>
+    <summary>jq is like sed for JSON data.</summary>
+    <description>jq is like sed for JSON data – you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.</description>
+    <projectUrl>http://stedolan.github.io/jq/</projectUrl>
+    <tags>jq JSON</tags>
+    <licenseUrl>http://stedolan.github.io/jq/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>1.0.1 Add to PATH of current shell after install.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
