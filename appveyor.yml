@@ -1,0 +1,16 @@
+
+os: Windows Server 2012
+
+build:
+  publish_nuget: true # package projects with .nuspec files and push to artifacts
+
+artifacts:
+  # pushing all *.nupkg files in directory
+  - path: out\*.nupkg
+
+deploy:
+  provider: NuGet
+  server: http://chocolatey.org/api/v2/
+  api_key:
+    secure: MHXDCXK5hQWqjOXq+OHpv0P22/ZC8hblFf3aY7/8+tibY7AcziBWRtq0Zw9wIeWO
+  artifact: /.*\.nupkg/
