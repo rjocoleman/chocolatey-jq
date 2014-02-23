@@ -2,7 +2,7 @@
 os: Windows Server 2012
 
 install:
-  - cmd: choco pack /.*\.nuspec/
+  - cmd: choco pack jq.nuspec
 
 build: off
 
