@@ -1,15 +1,11 @@
 
 os: Windows Server 2012
 
-# scripts that run after cloning repository
-install:
-  - ps: iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
-
 build:
   publish_nuget: true # package projects with .nuspec files and push to artifacts
 
   # to run your custom scripts instead of automatic MSBuild
-  build_script:
+  build_script: cpack out\*.nupkg
 
 artifacts:
   # pushing all *.nupkg files in directory
