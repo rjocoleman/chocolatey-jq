@@ -2,8 +2,7 @@
 os: Windows Server 2012
 
 install:
-  - cmd: dir
-  - cmd: cpack /.*\.nupkg/
+  - cmd: cpack /.*\.nuspec/
 
 build: off
 
