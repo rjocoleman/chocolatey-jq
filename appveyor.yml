@@ -2,11 +2,12 @@
 os: Windows Server 2012
 
 install:
-  - cmd: cpack *.nuspec
+  - cmd: dir
+  - cmd: cpack /.*\.nupkg/
 
-build:
-  publish_nuget: true # package projects with .nuspec files and push to artifacts
-  build: off
+build: off
+
+test: off
 
 artifacts:
   # pushing all *.nupkg files in directory
