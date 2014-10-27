@@ -3,15 +3,19 @@
   <metadata>
     <id>jq</id>
     <title>jq</title>
-    <version>1.4.0.4</version>
-    <authors>Stephen Dolan</authors>
-    <owners>Robert Coleman</owners>
-    <summary>jq is like sed for JSON data.</summary>
-    <description>jq is like sed for JSON data – you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text. Package Source and Issues: https://github.com/rjocoleman/chocolatey-jq</description>
-    <projectUrl>http://stedolan.github.io/jq/</projectUrl>
     <tags>jq JSON</tags>
+    <version>1.4</version>
+    <authors>Stephen Dolan</authors>
+    <owners>Robert Coleman,Steven Penny</owners>
+    <description>
+    jq is like sed for JSON data – you can use it to slice and filter and map
+    and transform structured data with the same ease that sed, awk, grep and
+    friends let you play with text.
+    http://github.com/rjocoleman/chocolatey-jq
+    </description>
+    <iconUrl>http://stedolan.github.io/jq/jq.png</iconUrl>
     <licenseUrl>http://stedolan.github.io/jq/</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://stedolan.github.io/jq/</projectUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
