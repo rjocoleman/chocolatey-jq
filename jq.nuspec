@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>jq</id>
-    <title>jq</title>
-    <tags>jq JSON</tags>
     <version>1.4</version>
+    <title>jq</title>
     <authors>Stephen Dolan</authors>
     <owners>Robert Coleman,Steven Penny</owners>
-    <description>
-    jq is like sed for JSON data – you can use it to slice and filter and map
-    and transform structured data with the same ease that sed, awk, grep and
-    friends let you play with text.
-    http://github.com/rjocoleman/chocolatey-jq
-    </description>
-    <iconUrl>http://stedolan.github.io/jq/jq.png</iconUrl>
     <licenseUrl>http://stedolan.github.io/jq/</licenseUrl>
     <projectUrl>http://stedolan.github.io/jq/</projectUrl>
+    <iconUrl>http://stedolan.github.io/jq/jq.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>jq is like sed for JSON data – you can use it to slice and
+    filter and map and transform structured data with the same ease that sed,
+    awk, grep and friends let you play with text.
+    http://github.com/rjocoleman/chocolatey-jq</description>
+    <tags>jq JSON</tags>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
