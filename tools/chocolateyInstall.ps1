@@ -6,8 +6,6 @@
   $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
   $fileFullPath = Join-Path $scriptPath "$packageName.exe"
   Get-ChocolateyWebFile $packageName $fileFullPath $url $url64
-  Install-ChocolateyPath $fileFullPath 'machine'
-  $env:Path += ";$fileFullPath"
 
   Write-ChocolateySuccess "$packageName"
 } catch {

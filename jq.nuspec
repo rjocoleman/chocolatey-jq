@@ -3,7 +3,7 @@
   <metadata>
     <id>jq</id>
     <title>jq</title>
-    <version>1.4.0.3</version>
+    <version>1.4.0.4</version>
     <authors>Stephen Dolan</authors>
     <owners>Robert Coleman</owners>
     <summary>jq is like sed for JSON data.</summary>
@@ -12,10 +12,6 @@
     <tags>jq JSON</tags>
     <licenseUrl>http://stedolan.github.io/jq/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>
-      1.4.0.3 Updated description (only).
-      1.4.0.2 Fix downloading of x64 binary.
-      1.4.0.1 Add to PATH of current shell after install.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
