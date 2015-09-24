@@ -1,7 +1,7 @@
 ﻿try {
   $packageName = 'jq'
-  $url = 'http://stedolan.github.io/jq/download/win32/jq.exe'
-  $url64 = 'http://stedolan.github.io/jq/download/win64/jq.exe'
+  $url = 'https://github.com/stedolan/jq/releases/download/jq-1.5/jq-win32.exe'
+  $url64 = 'https://github.com/stedolan/jq/releases/download/jq-1.5/jq-win64.exe'
 
   $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
   $fileFullPath = Join-Path $scriptPath "$packageName.exe"
