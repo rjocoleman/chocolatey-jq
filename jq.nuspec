@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>jq</id>
-    <version>1.4</version>
+    <version>1.5</version>
     <title>jq</title>
     <authors>Stephen Dolan</authors>
     <owners>Robert Coleman,Steven Penny</owners>
